@@ -112,7 +112,7 @@ main {
     justify-self: center;
 }
 
-.button-primarily {
+.card__proceed {
     border: none;
     background-color: var(--primary-600);
     color: white;
@@ -137,4 +137,13 @@ main {
 
 .text-center {
     text-align: center;
+}
+
+@media screen and (min-width:90em) {
+    main {
+        background-image: url(/images/pattern-background-desktop.svg);
+    }
+    .card {
+        width: 45rem;
+    }
 }
