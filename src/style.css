@@ -51,6 +51,13 @@ body {
     var(--primary-300);
 }
 
+@media screen and (min-width: 90em) {
+  .main {
+    background: url(/images/pattern-background-desktop.svg) no-repeat,
+      var(--primary-300);
+  }
+}
+
 /* Block card */
 
 .card {
@@ -144,10 +151,6 @@ body {
 }
 
 @media screen and (min-width: 90em) {
-  .main {
-    background: url(/images/pattern-background-desktop.svg) no-repeat,
-      var(--primary-300);
-  }
   .card {
     width: 45rem;
   }
