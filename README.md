@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [kosmonavtsv/order-summary-component](https://your-solution-url.com)
+- Solution URL: [kosmonavtsv/order-summary-component](https://github.com/kosmonavtsv/order-summary-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
