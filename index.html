@@ -18,23 +18,28 @@
 
 <body>
     <main class="main container-center">
-        <article class="card">
-            <img src="images/illustration-hero.svg" alt="A person listens to music with a phone and headphones">
-            <div class="card__content">
-                <h2 class="card__title text-center">Order Summary</h2>
-                <p class="card__description text-center">
-                    You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-                </p>
-                <div class="card__plan">
-                    <img class="card__plan-img" src="images/icon-music.svg" alt="music note">
-                    <span class="card__plan-name">Annual Plan</span>
-                    <span class="card__plan-price">$59.99/year</span>
-                    <a class="card__plan-change-link" href="#">Change</a>
+        <div class="container">
+            <article class="card">
+                <img src="images/illustration-hero.svg" alt="A person listens to music with a phone and headphones">
+                <div class="card__content">
+                    <h1 class="card__title text-center">Order Summary</h1>
+                    <p class="card__description text-center">
+                        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you
+                        like!
+                    </p>
+                    <div class="card__plan">
+                        <img class="card__plan-img" src="images/icon-music.svg">
+                        <div class="card__plan-middle">
+                            <p class="card__plan-name">Annual Plan</p>
+                            <p class="card__plan-price">$59.99/year</p>
+                        </div>
+                        <a class="card__plan-change-link" href="#">Change</a>
+                    </div>
+                    <button class="button card__proceed">Proceed to Payment</button>
+                    <button class="button card__cancel">Cancel Order</button>
                 </div>
-                <button class="card__proceed">Proceed to Payment</button>
-                <p class="card__cancel text-center">Cancel Order</p>
-            </div>
-        </article>
+            </article>
+        </div>
     </main>
 
 </body>
