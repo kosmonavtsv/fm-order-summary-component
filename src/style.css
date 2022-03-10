@@ -99,8 +99,9 @@ body {
 
 .card__plan {
   display: flex;
-  justify-content: stretch;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 
   background-color: var(--neutral-300);
   border-radius: 1rem;
@@ -138,7 +139,7 @@ body {
   font-size: var(--plan-change-font-size);
   font-weight: 900;
   justify-self: center;
-  padding: 0 0 0 1rem;
+  padding: 1rem 0 0 1rem;
   text-underline-offset: 0.1rem;
 }
 
