@@ -21,6 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
+![изображение](https://user-images.githubusercontent.com/2456818/157597543-0a1f4e84-1db6-489f-ac14-bf286cd4f3e8.png)
+
+![изображение](https://user-images.githubusercontent.com/2456818/157597552-b12b8668-9eed-4367-be11-d90f65670081.png)
+
+![изображение](https://user-images.githubusercontent.com/2456818/157597563-c13f7d12-79ff-4834-a7b4-1712578336ef.png)
+
 ### Links
 
 - Solution URL: [github repository](https://github.com/kosmonavtsv/order-summary-component)
@@ -33,6 +39,5 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - BEM
