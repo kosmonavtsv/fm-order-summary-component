@@ -7,6 +7,10 @@
   --neutral-600: hsl(224, 23%, 55%);
   --neutral-600-t25: hsl(224, 23%, 55%, 0.25);
   --neutral-900: hsl(223, 47%, 23%);
+  --header-font-size: clamp(2.2rem, 1.9887rem + 0.5634vw, 2.8rem);
+  --description-font-size: clamp(1.5rem, 1.4648rem + 0.0939vw, 1.6rem);
+  --plan-font-size: clamp(1.4rem, 1.1944rem + 0.2817vw, 1.6rem);
+  --plan-change-font-size: clamp(1.2rem, 1.1944rem + 0.2817vw, 1.4rem);
   font-size: 62.5%;
   font-weight: 500;
 }
@@ -15,6 +19,7 @@
   box-sizing: border-box;
 }
 
+h1,
 p {
   margin: 0;
 }
@@ -73,24 +78,21 @@ body {
   border-radius: 2rem;
   overflow: hidden;
   box-shadow: 0 15px 20px 0 var(--neutral-600-t25);
-  /* height: 567px; */
 }
 
 .card__content {
-  margin: 0 2.4rem;
+  padding: 3.2rem 2.4rem 1.8rem;
 }
 
 .card__title {
-  /* letter-spacing: 0.015rem; */
   color: var(--neutral-900);
-  font-size: clamp(2rem, 3.1vh, 5rem);
+  font-size: var(--header-font-size);
   font-weight: 900;
-  margin: 3.2rem 0 0 0;
 }
 
 .card__description {
   color: var(--neutral-600);
-  font-size: clamp(1.5rem, 2.15vh, 1.6rem);
+  font-size: var(--description-font-size);
   line-height: 1.6;
   margin: 1.7rem 1rem 0 1rem;
 }
@@ -112,7 +114,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 1.9rem;
-  font-size: clamp(1.3rem, 1.95vh, 1.6rem);
+  font-size: var(--plan-font-size);
   gap: 0.2rem;
 }
 
@@ -133,8 +135,7 @@ body {
 
 .card__plan-change-link {
   color: var(--primary-600);
-  font-size: clamp(1rem, 1.75vh, 1.4rem);
-  /* nfont-size: 1.3rem; */
+  font-size: var(--plan-change-font-size);
   font-weight: 900;
   justify-self: center;
   padding: 0 0 0 1rem;
@@ -149,7 +150,7 @@ body {
   display: block;
   border: none;
   height: 5rem;
-  font-size: clamp(1rem, 2.3vh, 1.5rem);
+  font-size: 1.5rem;
   width: 100%;
   font-weight: 700;
   letter-spacing: 0.02rem;
@@ -160,7 +161,7 @@ body {
   border-radius: 1.1rem;
   box-shadow: 0 15px 20px 0 var(--primary-600-t25);
   color: white;
-  margin: 2.3rem 0 0 0;
+  margin: 2.4rem 0 0 0;
 }
 
 .card__proceed:hover {
@@ -170,7 +171,7 @@ body {
 .card__cancel {
   background: transparent;
   color: var(--neutral-600);
-  margin: 0.8rem 0 1.8rem 0;
+  margin: 0.8rem 0 0 0;
 }
 
 .card__cancel:hover {
@@ -178,28 +179,20 @@ body {
 }
 
 @media screen and (min-width: 90em) {
-  /* .card {
-    height: 697px;
-  } */
-
   .card__content {
-    margin: 0 4.8rem;
-  }
-
-  .card__title {
-    margin-top: 4.6rem;
+    padding: 4.6rem 4.8rem 3.2rem;
   }
 
   .card__plan {
-    margin: 2.1rem 0 0 0;
+    margin-top: 2.1rem;
     padding: 2.5rem 2.4rem;
   }
 
   .card__proceed {
-    margin: 3.2rem 0 0 0;
+    margin-top: 3.2rem;
   }
 
   .card__cancel {
-    margin: 1.7rem 0 3.2rem 0;
+    margin-top: 1.7rem;
   }
 }
