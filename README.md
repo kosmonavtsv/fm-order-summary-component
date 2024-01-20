@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github repository](https://github.com/kosmonavtsv/order-summary-component)
-- Live Site URL: [github page](https://kosmonavtsv.github.io/order-summary-component/)
+- Solution URL: [github repository](https://github.com/kosmonavtsv/fm-order-summary-component)
+- Live Site URL: [github page](https://kosmonavtsv.github.io/fm-order-summary-component/)
 
 ## My process
 
