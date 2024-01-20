@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github repository](https://github.com/kosmonavtsv/fm-order-summary-component)
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/order-summary-component-flex-grid-bem-mobile-first-RRF87ZR66)
 - Live Site URL: [github page](https://kosmonavtsv.github.io/fm-order-summary-component/)
 
 ## My process
